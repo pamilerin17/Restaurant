@@ -1,0 +1,31 @@
+#header{
+ background: rgba(12, 11, 9, .6);
+ border-radius: 1px solid rgba(12, 11, 9, .6);
+ transition: all .5s;
+ padding: 15px 0;
+ top: 40px;
+}
+
+#header.header-scrolled{
+ top: 0;
+ background: rgba(0, 0, 0, .85);
+ border-bottom: 1px solid #3737332a;
+}
+#header .logo{
+ font-size: 20px;
+ margin: 0;
+ padding: 0;
+ line-height: 1;
+ font-weight: 300;
+ letter-spacing: 1;
+ text-transform: uppercase;
+ font-family: 'poppins', sans-serif;
+}
+
+#header .logo a{
+ color: #fff;
+}
+
+#header .logo img{
+ max-height: 40px;
+}
