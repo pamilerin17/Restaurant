@@ -1,11 +1,11 @@
 'use client'
 import React, {useEffect} from 'react'
-import GLightbox from 'glightbox'
+import GLightbox from 'glightbox';
 import './Hero.css'
 import HeroBtn from '../components/HeroBtn'
 
 export default function Hero() {
- useEffect (()=>{
+ useEffect (() =>{
   new GLightbox({
    selector: '.glightbox',
   });
